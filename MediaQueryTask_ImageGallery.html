@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageGallery_MediaQuery</title>
+    <style>
+        img{
+            height: 100px;
+            width: 100px;
+            border: 4px solid black;
+            
+        }
+        img:hover{
+            background-color: red;
+        }
+        @media screen and (min-width:320px) and (max-width:425px){
+            .i1,.i2,.i3,.i4{
+                position: absolute;
+                
+
+            }
+            .i2{
+                left: 100px;
+            }
+            .i3{
+                top: 107px;
+            }
+            .i4{
+                top: 107px;
+                left: 100px;
+            }
+            .i5,.i6,.i7,.i8,.i9,.i10,.i11,.i12,.i13,.i14,.i15,.i16{
+                display: none;
+            }
+        }
+        @media screen and (min-width:425px) and (max-width:768px){
+            .i1,.i2,.i3,.i4,.i5,.i6,.i7,.i8,.i9{
+                position: absolute;
+            }
+            .i10,.i11,.i12,.i13,.i14,.i15,.i16{
+                display: none;
+            }
+            .i2{
+                left: 100px;
+            }
+            .i3{
+                top: 107px;
+            }
+            .i4{
+                top: 107px;
+                left: 100px;
+            }
+            .i5{
+                left: 200px;
+            }
+            .i6{
+                left: 200px;
+                top: 107px;
+            }
+            .i7{
+                top: 210px;
+                width: 88px;
+            }
+            .i8{
+                top: 210px;
+                left: 100px;
+                width: 95px;
+            }
+            .i9{
+                top: 210px;
+                left: 200px;
+            }
+
+        }
+        @media screen and (min-width: 768px) and (max-width:1024px){
+            .i1,.i2,.i3,.i4,.i5,.i6,.i7,.i8,.i9,.i10,.i11,.i12,.i13,.i14,.i15,.i16{
+                position: absolute;
+            }
+            .i2{
+                left: 100px;
+            }
+            .i3{
+                top: 107px;
+            }
+            .i4{
+                top: 107px;
+                left: 100px;
+            }
+            .i5{
+                left: 200px;
+            }
+            .i6{
+                left: 200px;
+                top: 107px;
+            }
+            .i7{
+                top: 210px;
+                width: 88px;
+            }
+            .i8{
+                top: 210px;
+                left: 100px;
+                width: 95px;
+            }
+            .i9{
+                top: 210px;
+                left: 200px;
+            }
+            .i10{
+                top: 315px;
+                width: 88px;
+            }
+            .i11{
+                top: 315px;
+                left: 100px;
+                width: 95px;
+            }
+            .i12{
+                top: 315px;
+                left: 200px;
+            }
+            .i13{
+                left: 302px;
+                height: 95px;
+            }
+            .i14{
+                left: 302px;
+                height: 99px;
+                top: 107px;
+            }
+            .i15{
+                left: 302px;
+                top: 210px ;
+            }
+            .i16{
+                left: 302px;
+                top: 315px;
+            }
+
+        }
+        p{
+            position: absolute;
+            top: 430px;
+            left: 100px;
+            font-family: Segoe UI;
+            font-weight: bolder;
+            background-color: cadetblue; 
+            border: 1px solid blue;
+            color: white;
+
+        }
+        p:hover{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <img class="i1" src="a.jpg" alt="" >
+    <img class="i2" src="b.jpg" alt="" >
+    <img class="i3" src="c.jpg" alt="" >
+    <img class="i4" src="d.jpg" alt="" >
+    <img class="i5" src="e.jpg" alt="">
+    <img class="i6" src="f.jpg" alt="" >
+    <img class="i7" src="g.jpg" alt="" >
+    <img class="i8" src="h.jpg" alt="" >
+    <img class="i9" src="i.jpg" alt="" >
+    <img class="i10" src="j.jpg" alt="" >
+    <img class="i11" src="k.jpg" alt="" >
+    <img class="i12" src="l.jpg" alt="" >
+    <img class="i13" src="m.jpg" alt="" >
+    <img class="i14" src="n.jpg" alt="" >
+    <img class="i15" src="o.jpg" alt="" >
+    <img class="i16" src="p.jpg" alt="" >
+    <p>Characters of Attack On Titan</p>
+    
+</body>
+</html>
